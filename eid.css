@@ -3,23 +3,25 @@
     padding: 0;
 }
 .top{
+    font-family: 'Baloo Bhai 2', cursive;
     background-image:
     linear-gradient(to bottom, rgba(23, 23, 24, 0.33), rgba(152, 127, 144, 0.62)),
     url('images/gettyimages-1227803127-612x612.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 98vw;
     height: 600px;
 }
 .main{
+    font-family: 'Baloo Bhai 2', cursive;
     position: absolute;
     width: 516px;
     color: white;
     margin: 120px 0 8px 158px;
 }
 .main > h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 5px 0;
 }
 .main > p{
@@ -30,7 +32,7 @@
     width: 150px;
     font-size: 18px;
     padding: 13px;
-    margin: 10px 0;
+    margin: 15px 0;
     background-color:rgba(255, 0, 0, 0.907);
     border: 1px solid red;
     color: white;
@@ -40,20 +42,147 @@
 .top-btn:hover{
     border: 1px solid white;
     cursor: pointer;
-    color: black;
-    background-color: white;
+    color: rgb(244, 239, 239);
+    background-color: rgb(58, 46, 46);
 }
 .half{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 30px;
     width: 50%;
-    margin: 20px;
-
+    box-sizing: border-box;
 }
 .two{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 100px 0 0 100px;
 }
 .img-size{
+    margin-bottom: 25;
+    width: 80%;
+    height: 400px;
+}
+.three{
+    margin: 120px 20px;
+}
+.big-size{
+    font-family: 'Niconne', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+.para{
+    font-family: 'Baloo Bhai 2', cursive;
+   font-size: 20px;
+}
+.align{
+    text-align: center;
+    margin: 95px 415px 0;
+}
+.side{
+    margin: 5px 40px;
+}
+.card{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px;
+    width: 30%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+.pic{
+    height: 128px;
+    margin: 30px;
+}
+.card-des{
+    margin: 17px;
+    font-size: 18px;
+}
+.cointainer{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card{
     width: 100%;
+    height: 292px;
+}
+.card-2{
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 30%;
+    height: 292px;
+    box-sizing: border-box;
+    margin: 10px;
+    box-shadow: 2px 1px 15px rgba(118, 113, 113, 0.758);
+    background-color: beige;
+}
+.extra{
+    height: 292px;
+}
+.photo{
+    margin: 60px 100px;
+}
+.align-two{
+    text-align: center;
+    margin: 10px 150px;
+}
+.marg{
+    text-align: center;
+    margin: 25px 200px;
+}
+.card-3{
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 25%;
+    height: 450px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.41);
+    margin: 10px;
+    border-radius: 12px;
+}
+.card-3-image{
+    width: 100%;
+    border-radius: 12px;
+}
+.card-size{
+    margin: 16px 17px;
+    font-size: 20px;
+}
+.card-h-size{
+    margin: 15px 16px;
+    font-size: 25p;
+}
+.last{
+    margin: 70px 70px;
+}
+a{
+    margin:2px ;
+    padding: 10px 12px;
+    color: red;
+    font-size: 25px;
+}
+a:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.cherity{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
+}
+footer{
+    font-family: 'Niconne', cursive;
+    background-color: black;
+    height: 120px;
+    text-align: center;
+    color: rgb(240, 14, 14);
+    padding: 30px;
+}
+footer > h1{
+    margin: 30px;
 }
