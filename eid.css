@@ -13,7 +13,7 @@
     height: 600px;
 }
 .main{
-    position: fixed;
+    position: absolute;
     width: 516px;
     color: white;
     margin: 120px 0 8px 158px;
@@ -42,4 +42,18 @@
     cursor: pointer;
     color: black;
     background-color: white;
+}
+.half{
+    width: 50%;
+    margin: 20px;
+
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-size{
+    width: 100%;
 }
